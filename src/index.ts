@@ -6,7 +6,11 @@ import Wheel from "./classes/Wheel.js";
 import Cli from "./classes/Cli.js";
 
 // create an array of vehicles
-const vehicles = [];
+const vehicles = [
+  // new Truck("1FTFW1ET4BFC12152", "red", "Ford", "F-150", 2021, 5000, 120, [], 10000),
+  new Car("4T1BF1FK7GU572575", "blue", "Toyota", "Camry", 2021, 3000, 130, []),
+  // new Motorbike("1HD1LC31XEC400000", "black", "Harley Davidson", "Sportster", 2021, 500, 125, [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")]),
+];
 
 // TODO: uncomment once trucks are implemented
 // const truck1 = new Truck(Cli.generateVin(),"red", "Ford", "F-150", 2021, 5000, 120, [], 10000);
